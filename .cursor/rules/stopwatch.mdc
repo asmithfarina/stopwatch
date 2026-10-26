@@ -1,0 +1,9 @@
+---
+description: Conventions for this stopwatch demo
+alwaysApply: true
+---
+# Stopwatch
+
+- Keep the app runnable by opening `index.html` (no build step)
+- Core timing logic lives in `src/stopwatch.js`
+- Prefer exploring the click → core → display path before changing behavior
